@@ -20,3 +20,6 @@ model User {
   email String @unique // para ser o email único
   createdAt DateTime @default(now())
 }
+
+// Define o Model (Tabelas do banco de dados)
+// Executa as Migrations (npx prisma migrate dev )
