@@ -15,7 +15,7 @@ datasource db {
 
 model User {
  // campo tipo restrição 
-  idi Int @id @default(autoincrement())
+  id Int @id @default(autoincrement())
   name String // ? - Para campo opcional
   email String @unique // para ser o email único
   createdAt DateTime @default(now())
